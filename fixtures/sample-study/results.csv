@@ -1,0 +1,5 @@
+optimizer,seed,split,error_rate,selected_for_headline
+AdaptiveStep,1,evaluation,0.12,false
+AdaptiveStep,2,evaluation,0.11,false
+AdaptiveStep,3,evaluation,0.09,true
+Adam,1,evaluation,0.15,true
