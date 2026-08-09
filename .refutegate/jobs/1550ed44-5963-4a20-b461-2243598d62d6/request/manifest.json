@@ -1,0 +1,95 @@
+{
+  "schema_version": "refutegate.request.v1",
+  "job_id": "1550ed44-5963-4a20-b461-2243598d62d6",
+  "created_at": "2026-08-09T14:56:32Z",
+  "expires_at": "2026-08-10T14:56:32Z",
+  "producer": {
+    "id": "codex-a"
+  },
+  "executor": {
+    "model": "gpt-5.6-sol",
+    "family": "openai"
+  },
+  "profile": {
+    "id": "kill-argument",
+    "version": "1.0.0",
+    "digest": "sha256:5a4b8ad416f0a9d9f125e5467f233d719d4ff7258088304d9f1e9a618f7ce633"
+  },
+  "contract": {
+    "engine_version": "0.4.0",
+    "digest": "sha256:4ac64b0b0bd73b6ec1cb04e6532347c0f15ee8096995e6ee8fd5b038e1f0ad5f"
+  },
+  "transport": {
+    "route_key_id": "sha256:9c7d4eedab5a169462bf2c2405f9dd9bc2b9fa523f6e316d22efc377d3b629a5"
+  },
+  "source": {
+    "repository": "github.com/zixuangui-rgb/RefuteGate-test",
+    "source_commit": "f698ac44c4ce588e5e5914230d51225665a0790d"
+  },
+  "review_scope": {
+    "mode": "TRACKED_TREE",
+    "root": ".",
+    "status": "COMPLETE",
+    "included_paths": [
+      ".gitignore",
+      "README.md",
+      "fixtures/sample-study/experiment_protocol.md",
+      "fixtures/sample-study/paper.md",
+      "fixtures/sample-study/results.csv"
+    ],
+    "exclusions": []
+  },
+  "inputs": [
+    {
+      "path": ".gitignore",
+      "media_type": "text/plain",
+      "bytes": 25,
+      "sha256": "sha256:3e0bf7349b8da52d092a57a9366323f19fe6e81d7a5453398ea05938d4a32a48",
+      "required": true
+    },
+    {
+      "path": "README.md",
+      "media_type": "text/markdown",
+      "bytes": 483,
+      "sha256": "sha256:42153bc1a5bd1159436c2312f523aaf1fb7fd173da21499446e997e3dfd68082",
+      "required": true
+    },
+    {
+      "path": "fixtures/sample-study/experiment_protocol.md",
+      "media_type": "text/markdown",
+      "bytes": 422,
+      "sha256": "sha256:41f4a436a73c2087752a6497adce8017afbc4210593826dca2d908b0028d510c",
+      "required": true
+    },
+    {
+      "path": "fixtures/sample-study/paper.md",
+      "media_type": "text/markdown",
+      "bytes": 1322,
+      "sha256": "sha256:74b9c8afb9025a062e2f6a7703e180a3fb1d1b79833c268b029a50bcc2025c8d",
+      "required": true
+    },
+    {
+      "path": "fixtures/sample-study/results.csv",
+      "media_type": "text/csv",
+      "bytes": 192,
+      "sha256": "sha256:0e617ef36d17f943be9188394d6f7d178825c29bab2dd3ecffc2bae73a221254",
+      "required": true
+    }
+  ],
+  "limits": {
+    "max_files": 128,
+    "max_total_bytes": 2097152,
+    "max_file_bytes": 1048576,
+    "max_runtime_seconds": 1800,
+    "max_output_bytes": 524288,
+    "allow_code_execution": false,
+    "allow_network": false
+  },
+  "revision": 1,
+  "bundle_digest": "sha256:8d4b8127c35d33451633056e40e1a347b71378d97fa2023e4e23025c779dfde5",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "ed25519:77ad8bc6cffe6ee0530eb3aa",
+    "value": "qkedSk3tZytHSf657uIdk4vvBIteFhFjdwG/x3DjoDrWgk+3aXVAOIKV8hbo89cr1YbUSVfWpA8DhXv5v8ipDw=="
+  }
+}
