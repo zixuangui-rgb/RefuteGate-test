@@ -1,0 +1,28 @@
+{
+  "schema_version": "refutegate.receipt.v1",
+  "receipt_type": "FAILURE",
+  "job_id": "6b391ce0-4efb-4628-86cb-9e11c8900903",
+  "request_commit": "5c9cf53b2c483bcd0b45ace6d872296e423e971a",
+  "queue_commit": "083635385fa220ab7b8591f253870dfd033b92e8",
+  "request_document_sha256": "sha256:acfeb6592c7e7822ff89c8efa00bfc0a1f904c2a8a1c04a6413d21999b3f3be8",
+  "queue_event_sha256": "sha256:c7b7e48f84a737720c09a54e35f3eb84d1345e4f41c58022653ac7faeceda8f6",
+  "bundle_digest": "sha256:7ad67cdb78f5485f7329b8594ad6496347e71a1face112c8fea0dcb2803b1123",
+  "profile_digest": "sha256:5a4b8ad416f0a9d9f125e5467f233d719d4ff7258088304d9f1e9a618f7ce633",
+  "contract": {
+    "engine_version": "0.4.0",
+    "digest": "sha256:9627dc860438ca52b27685d8b39028fb36ab0e671cf0d8f921a65726c3326bc9"
+  },
+  "worker_id": "reviewer-b",
+  "attempt": 1,
+  "stage": "S2_ATTACK",
+  "verdict": "ERROR",
+  "reason_code": "OUTPUT_EMPTY",
+  "admissibility": "INELIGIBLE",
+  "project_gate": "UNSATISFIED",
+  "created_at": "2026-08-09T16:03:28Z",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "ed25519:423e529dcaeced2a06852e16",
+    "value": "BNg1OXAG0aqNXNjBY2UILwJZdiq7w1ygeByqCPcub0yvlK8hmSm4AuFrkfQYWzHtZx3sXmaCPu4lDrFAQ1/lBQ=="
+  }
+}
