@@ -1,0 +1,39 @@
+{
+  "schema_version": "refutegate.receipt.v1",
+  "receipt_type": "FAILURE",
+  "job_id": "c07499a3-01f8-4aea-8345-920f32d8ebb2",
+  "request_commit": "b7bb0be823b0217700be02275c0bc0b99a9942c9",
+  "queue_commit": "e1245617177a4697270fcad93c3933c9b030b93e",
+  "request_document_sha256": "sha256:d63f672e2fd2363849716733ecd7c5ea27d99c23c4c23f4f1522458e4d2c294a",
+  "queue_event_sha256": "sha256:c99dd4806d4143db828913e0d75ebee60a0aa1d7a93983e229c441f6d8d988da",
+  "bundle_digest": "sha256:eeaa8dd411d3ab977202add3a12fbdc5545997795840d8f50c8a71f36e6d6673",
+  "profile_digest": "sha256:7a982cf0a9ace94bf0e72d0ea039f99778d9718ffaad93fe77d18f05b8ac2a4d",
+  "contract": {
+    "engine_version": "0.5.0",
+    "digest": "sha256:80b03e17f7f1017e1dbd6b55ec2824268a32934b86f351ce550d6217288ebd0b"
+  },
+  "lineage": {
+    "id": "sha256:478915448543293229a578cabc8ea2a12c0239526788fbaf576fd0a5c15c4484",
+    "revision": 1
+  },
+  "worker_id": "claude-code-computer-b-0.5",
+  "attempt": 1,
+  "stage": "S2_ATTACK",
+  "verdict": "ERROR",
+  "reason_code": "CLAUDE_TIMEOUT",
+  "provider_outcome": "UNKNOWN",
+  "admissibility": "INELIGIBLE",
+  "project_gate": "UNSATISFIED",
+  "created_at": "2026-08-10T05:23:39Z",
+  "trace": {
+    "path": ".refutegate/jobs/c07499a3-01f8-4aea-8345-920f32d8ebb2/attempts/0001/trace/manifest.json",
+    "manifest_sha256": "sha256:6b9f675440e30e38e0d32a6304bbe1175ae8939d88ef33707ec0208c6316f870",
+    "complete": false,
+    "kind": "FAILURE_PREFIX"
+  },
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "ed25519:0676c82eb35a44bffd17c14f",
+    "value": "c8b05ttisHU38EJVhKO2oHlINWETd6IiL4sRIJN61udZBteUoKEMn9sFJ2gBxK/j2YDvKhsLL25op6ttCcp7Cg=="
+  }
+}
