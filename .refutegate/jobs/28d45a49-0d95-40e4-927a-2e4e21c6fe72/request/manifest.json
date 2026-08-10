@@ -1,0 +1,106 @@
+{
+  "schema_version": "refutegate.request.v1",
+  "job_id": "28d45a49-0d95-40e4-927a-2e4e21c6fe72",
+  "created_at": "2026-08-10T06:22:12Z",
+  "expires_at": "2026-08-11T06:22:12Z",
+  "producer": {
+    "id": "codex-a-validation-0.5.1"
+  },
+  "executor": {
+    "model": "gpt-5.6-codex",
+    "family": "openai"
+  },
+  "profile": {
+    "id": "kill-argument",
+    "version": "1.0.0",
+    "digest": "sha256:7a982cf0a9ace94bf0e72d0ea039f99778d9718ffaad93fe77d18f05b8ac2a4d"
+  },
+  "contract": {
+    "engine_version": "0.5.1",
+    "digest": "sha256:545320de52c4437f057b4dc383240ac2f7f0b5f3bb9b725d96977d9584c6970f"
+  },
+  "transport": {
+    "route_key_id": "sha256:faf4201a8e6cfec36e2a8cc9bfdb6e8057c7fa61a0d7ff81ecd5df0ffd036104"
+  },
+  "source": {
+    "repository": "github.com/zixuangui-rgb/refutegate-test",
+    "source_commit": "7667904242882a020c80e06cf4c1204fc92a2e13"
+  },
+  "review_scope": {
+    "mode": "TRACKED_TREE",
+    "root": ".",
+    "status": "COMPLETE",
+    "included_paths": [
+      ".gitignore",
+      "README.md",
+      "fixtures/sample-study/experiment_protocol.md",
+      "fixtures/sample-study/paper.md",
+      "fixtures/sample-study/results.csv",
+      "fixtures/sample-study/validation_history.md"
+    ],
+    "exclusions": []
+  },
+  "inputs": [
+    {
+      "path": ".gitignore",
+      "media_type": "text/plain",
+      "bytes": 25,
+      "sha256": "sha256:3e0bf7349b8da52d092a57a9366323f19fe6e81d7a5453398ea05938d4a32a48",
+      "required": true
+    },
+    {
+      "path": "README.md",
+      "media_type": "text/markdown",
+      "bytes": 483,
+      "sha256": "sha256:42153bc1a5bd1159436c2312f523aaf1fb7fd173da21499446e997e3dfd68082",
+      "required": true
+    },
+    {
+      "path": "fixtures/sample-study/experiment_protocol.md",
+      "media_type": "text/markdown",
+      "bytes": 422,
+      "sha256": "sha256:41f4a436a73c2087752a6497adce8017afbc4210593826dca2d908b0028d510c",
+      "required": true
+    },
+    {
+      "path": "fixtures/sample-study/paper.md",
+      "media_type": "text/markdown",
+      "bytes": 1322,
+      "sha256": "sha256:74b9c8afb9025a062e2f6a7703e180a3fb1d1b79833c268b029a50bcc2025c8d",
+      "required": true
+    },
+    {
+      "path": "fixtures/sample-study/results.csv",
+      "media_type": "text/csv",
+      "bytes": 192,
+      "sha256": "sha256:0e617ef36d17f943be9188394d6f7d178825c29bab2dd3ecffc2bae73a221254",
+      "required": true
+    },
+    {
+      "path": "fixtures/sample-study/validation_history.md",
+      "media_type": "text/markdown",
+      "bytes": 1172,
+      "sha256": "sha256:acb374c9cef56378afe9c2a149e053b52b9fdb24918f48a5370f482d8c5f7ff3",
+      "required": true
+    }
+  ],
+  "limits": {
+    "max_files": 128,
+    "max_total_bytes": 2097152,
+    "max_file_bytes": 1048576,
+    "max_runtime_seconds": 1800,
+    "max_output_bytes": 524288,
+    "allow_code_execution": false,
+    "allow_network": false
+  },
+  "lineage": {
+    "id": "sha256:0b7b6becebb869f3bbe108f24bedb5e8491025cfc2feda01713cd7f1bb08cf4a",
+    "revision": 1
+  },
+  "bundle_digest": "sha256:0123f9bad5b16f0d62fd2db95e2b37f71e7b491a7b4b0ec73d8e1911e4b7ae81",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "ed25519:7a599d481035b3c154b19cc3",
+    "value": "PwJoxl1marBGwLyxnxB9Bl0sHjNUKjFMb+arwXaP+ExeWt4wJVm3qhMY05OUUd/YxuN9z+eFOuUOVwbl+ARxDw=="
+  }
+}
