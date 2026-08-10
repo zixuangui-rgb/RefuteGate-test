@@ -1,0 +1,39 @@
+{
+  "schema_version": "refutegate.receipt.v1",
+  "receipt_type": "FAILURE",
+  "job_id": "28d45a49-0d95-40e4-927a-2e4e21c6fe72",
+  "request_commit": "97399984f1d9f93f648ad57e275c717951edd6b9",
+  "queue_commit": "5329fb18ff378d31f536f97c631394589ee92e88",
+  "request_document_sha256": "sha256:10d3bc09d926db1be0ef482affb08c08ad89f82c74bbc0afbd41f4464443e6cc",
+  "queue_event_sha256": "sha256:2e15fbaaa1bfd15fea2052ed12bba5c1b40f6e59ade8daf5cb0ff876f0872279",
+  "bundle_digest": "sha256:0123f9bad5b16f0d62fd2db95e2b37f71e7b491a7b4b0ec73d8e1911e4b7ae81",
+  "profile_digest": "sha256:7a982cf0a9ace94bf0e72d0ea039f99778d9718ffaad93fe77d18f05b8ac2a4d",
+  "contract": {
+    "engine_version": "0.5.1",
+    "digest": "sha256:545320de52c4437f057b4dc383240ac2f7f0b5f3bb9b725d96977d9584c6970f"
+  },
+  "lineage": {
+    "id": "sha256:0b7b6becebb869f3bbe108f24bedb5e8491025cfc2feda01713cd7f1bb08cf4a",
+    "revision": 1
+  },
+  "worker_id": "reviewer-b-validation-0.5.1",
+  "attempt": 1,
+  "stage": "S7_ADJUDICATION_VALIDATE",
+  "verdict": "ERROR",
+  "reason_code": "OUTPUT_REPAIR_EXHAUSTED",
+  "provider_outcome": "ATTESTED",
+  "admissibility": "INELIGIBLE",
+  "project_gate": "UNSATISFIED",
+  "created_at": "2026-08-10T07:00:26Z",
+  "trace": {
+    "path": ".refutegate/jobs/28d45a49-0d95-40e4-927a-2e4e21c6fe72/attempts/0001/trace/manifest.json",
+    "manifest_sha256": "sha256:7bbf952183983e963e309362230b67076d95b091a3a5403a770a2cf137caef00",
+    "complete": false,
+    "kind": "FAILURE_PREFIX"
+  },
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "ed25519:79d05e78e5a9b6c710bd0405",
+    "value": "IRM6priVS3KkMz8s00AUIY9NQWhZSn99SaoQZZOozuFKbBJZBg08enZH1ZDxCkWjFC9zErUtlhujoLJr24u5Aw=="
+  }
+}
