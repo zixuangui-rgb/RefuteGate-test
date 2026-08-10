@@ -1,0 +1,98 @@
+{
+  "schema_version": "refutegate.request.v1",
+  "job_id": "c07499a3-01f8-4aea-8345-920f32d8ebb2",
+  "created_at": "2026-08-10T04:49:01Z",
+  "expires_at": "2026-08-11T04:49:01Z",
+  "producer": {
+    "id": "codex-computer-a-0.5"
+  },
+  "executor": {
+    "model": "gpt-5.6-codex",
+    "family": "openai"
+  },
+  "profile": {
+    "id": "kill-argument",
+    "version": "1.0.0",
+    "digest": "sha256:7a982cf0a9ace94bf0e72d0ea039f99778d9718ffaad93fe77d18f05b8ac2a4d"
+  },
+  "contract": {
+    "engine_version": "0.5.0",
+    "digest": "sha256:80b03e17f7f1017e1dbd6b55ec2824268a32934b86f351ce550d6217288ebd0b"
+  },
+  "transport": {
+    "route_key_id": "sha256:7db96a96c3e3c61d25787b517b5e604cf8fb6b7f87f1ca4a4238f3ae1add8e7f"
+  },
+  "source": {
+    "repository": "github.com/zixuangui-rgb/refutegate-test",
+    "source_commit": "f698ac44c4ce588e5e5914230d51225665a0790d"
+  },
+  "review_scope": {
+    "mode": "TRACKED_TREE",
+    "root": ".",
+    "status": "COMPLETE",
+    "included_paths": [
+      ".gitignore",
+      "README.md",
+      "fixtures/sample-study/experiment_protocol.md",
+      "fixtures/sample-study/paper.md",
+      "fixtures/sample-study/results.csv"
+    ],
+    "exclusions": []
+  },
+  "inputs": [
+    {
+      "path": ".gitignore",
+      "media_type": "text/plain",
+      "bytes": 25,
+      "sha256": "sha256:3e0bf7349b8da52d092a57a9366323f19fe6e81d7a5453398ea05938d4a32a48",
+      "required": true
+    },
+    {
+      "path": "README.md",
+      "media_type": "text/markdown",
+      "bytes": 483,
+      "sha256": "sha256:42153bc1a5bd1159436c2312f523aaf1fb7fd173da21499446e997e3dfd68082",
+      "required": true
+    },
+    {
+      "path": "fixtures/sample-study/experiment_protocol.md",
+      "media_type": "text/markdown",
+      "bytes": 422,
+      "sha256": "sha256:41f4a436a73c2087752a6497adce8017afbc4210593826dca2d908b0028d510c",
+      "required": true
+    },
+    {
+      "path": "fixtures/sample-study/paper.md",
+      "media_type": "text/markdown",
+      "bytes": 1322,
+      "sha256": "sha256:74b9c8afb9025a062e2f6a7703e180a3fb1d1b79833c268b029a50bcc2025c8d",
+      "required": true
+    },
+    {
+      "path": "fixtures/sample-study/results.csv",
+      "media_type": "text/csv",
+      "bytes": 192,
+      "sha256": "sha256:0e617ef36d17f943be9188394d6f7d178825c29bab2dd3ecffc2bae73a221254",
+      "required": true
+    }
+  ],
+  "limits": {
+    "max_files": 128,
+    "max_total_bytes": 2097152,
+    "max_file_bytes": 1048576,
+    "max_runtime_seconds": 1800,
+    "max_output_bytes": 524288,
+    "allow_code_execution": false,
+    "allow_network": false
+  },
+  "lineage": {
+    "id": "sha256:478915448543293229a578cabc8ea2a12c0239526788fbaf576fd0a5c15c4484",
+    "revision": 1
+  },
+  "bundle_digest": "sha256:eeaa8dd411d3ab977202add3a12fbdc5545997795840d8f50c8a71f36e6d6673",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "ed25519:8328e11fece87957b712af01",
+    "value": "r/8m7Y9dxVrqmxtGHU+ERANwNQ7fo3kBu/l/futcO3gHm3K8+w7WMk/JrjbSDIbyf8v7t01ILEG60bGSUwtpDw=="
+  }
+}
