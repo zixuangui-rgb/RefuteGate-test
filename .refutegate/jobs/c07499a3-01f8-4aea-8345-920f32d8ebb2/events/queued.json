@@ -1,0 +1,14 @@
+{
+  "schema_version": "refutegate.event.v1",
+  "event": "QUEUED",
+  "event_id": "0085ba39-d19c-47b2-b310-ceefe34ba376",
+  "job_id": "c07499a3-01f8-4aea-8345-920f32d8ebb2",
+  "request_commit": "b7bb0be823b0217700be02275c0bc0b99a9942c9",
+  "bundle_digest": "sha256:eeaa8dd411d3ab977202add3a12fbdc5545997795840d8f50c8a71f36e6d6673",
+  "created_at": "2026-08-10T04:49:01Z",
+  "signature": {
+    "algorithm": "ed25519",
+    "key_id": "ed25519:8328e11fece87957b712af01",
+    "value": "kYajTQYfzK1EQDxS/jR4zVSBWLU+/uW9f+aOh0Amx7fg+ismVAq1dw5pWYB4IjZdQrr7zeQZL8Wnpsw1FGtSCA=="
+  }
+}
